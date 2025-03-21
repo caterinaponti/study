@@ -67,6 +67,28 @@
             ]
 
         },
+
+        "dotplot-low": {
+        "type": "image",
+        "path": "demo-image/assets/uncertainty-1.png",
+        "instruction": "Will you issue blankets to the alpacas?",
+        "style": {
+        "width": "800px"
+        },
+        "nextButtonLocation": "sidebar",
+        "response": [
+        {
+            "id": "demo-image/assets-response",
+            "prompt": "Answer:",
+            "location": "sidebar",
+            "type": "radio",
+            "options": [
+            "Yes",
+            "No"
+            ]
+        }
+        ]
+    },
         "external": {
         "type": "video",
         "path": "https://www.youtube.com/watch?v=icPHcK_cCF4",
@@ -84,6 +106,7 @@
             "introduction",
             "first-question-set",
             "second-question-set",
+            "dotplot-low",
             "external"
         ]
     }
