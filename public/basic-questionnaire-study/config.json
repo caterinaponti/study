@@ -50,6 +50,7 @@
                 }
             ]
         },
+
         "second-question-set": {
             "type": "questionnaire",
             "response": [
@@ -66,25 +67,15 @@
             ]
         },
 
-        "survey": {
-        "type": "questionnaire",
-        "response": [
-        {
-            "id": "q-dropdown",
-            "prompt": "Dropdown example – which chart do you like best?",
-            "secondaryText": "You can specify secondary text to clarify your question.",
-            "location": "aboveStimulus",
-            "type": "dropdown",
-            "placeholder": "Enter your preference",
-            "options": [
-                "Bar",
-                "Bubble",
-                "Pie",
-                "Stacked Bar"
-            ]
-        }
-        ]
+        "dotplot-low": {
+    "type": "image",
+    "path": "demo-image/assets/uncertainty-1.png",
+    "instruction": "Will you issue blankets to the alpacas?",
+    "style": {
+      "width": "800px"
     }
+}
+
     },
     "sequence": {
         "order": "fixed",
