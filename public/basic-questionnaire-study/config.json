@@ -64,7 +64,27 @@
                     "numItems": 5
                 }
             ]
+        },
+
+        "survey": {
+        "type": "questionnaire",
+        "response": [
+        {
+            "id": "q-dropdown",
+            "prompt": "Dropdown example – which chart do you like best?",
+            "secondaryText": "You can specify secondary text to clarify your question.",
+            "location": "aboveStimulus",
+            "type": "dropdown",
+            "placeholder": "Enter your preference",
+            "options": [
+                "Bar",
+                "Bubble",
+                "Pie",
+                "Stacked Bar"
+            ]
         }
+        ]
+    }
     },
     "sequence": {
         "order": "fixed",
