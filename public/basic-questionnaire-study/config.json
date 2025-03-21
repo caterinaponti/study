@@ -100,11 +100,14 @@
             "location": "aboveStimulus",
             "type": "dropdown",
             "placeholder": "Enter your preference",
+            "withDontKnow": true,
             "options": [
                 "Bar",
                 "Bubble",
                 "Pie",
-                "Stacked Bar"
+                "Stacked Bar",
+                "Scatter Plot"
+                
             ]
         }
         ]
