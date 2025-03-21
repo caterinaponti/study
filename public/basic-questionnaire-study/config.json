@@ -65,18 +65,19 @@
                     "numItems": 5
                 }
             ]
-        },
 
-        "dotplot-low": {
-    "type": "image",
-    "path": "demo-image/assets/uncertainty-1.png",
-    "instruction": "Will you issue blankets to the alpacas?",
-    "style": {
-      "width": "800px"
-    }
-}
+        },
+        "internal": {
+            "type": "video",
+            "path": "demo-video/assets/venice.mp4",
+            "forceCompletion": true,
+            "response": []
+        }
+
 
     },
+
+
     "sequence": {
         "order": "fixed",
         "components": [
