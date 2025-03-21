@@ -89,6 +89,26 @@
         }
         ]
     },
+
+    "survey": {
+        "type": "questionnaire",
+        "response": [
+        {
+            "id": "q-dropdown",
+            "prompt": "Dropdown example – which chart do you like best?",
+            "secondaryText": "You can specify secondary text to clarify your question.",
+            "location": "aboveStimulus",
+            "type": "dropdown",
+            "placeholder": "Enter your preference",
+            "options": [
+                "Bar",
+                "Bubble",
+                "Pie",
+                "Stacked Bar"
+            ]
+        }
+        ]
+    },
         "external": {
         "type": "video",
         "path": "https://www.youtube.com/watch?v=icPHcK_cCF4",
@@ -107,6 +127,7 @@
             "first-question-set",
             "second-question-set",
             "dotplot-low",
+            "survey",
             "external"
         ]
     }
